@@ -1,6 +1,6 @@
 # Hi, I'm Aniket Verma 👋
 
-I'm a **Data Science & ML Engineer** focused on building practical AI systems —
+I'm a **ML Engineer** focused on building practical AI systems —
 from custom transformer architectures to real-time computer vision applications.
 
 ---
