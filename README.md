@@ -1,84 +1,134 @@
-# Hi, I'm Aniket 👋
+<div align="center">
 
-Final-year B.Tech CS (AI & ML) student, building applied AI systems solo — from transformer architectures to multi-agent workspaces.
+```
+   ▄▄▄       ███▄    █  ██▓ ██ ▄█▀▓█████▄▄▄█████▓
+  ▒████▄     ██ ▀█   █ ▓██▒ ██▄█▒ ▓█   ▀▓  ██▒ ▓▒
+  ▒██  ▀█▄  ▓██  ▀█ ██▒▒██▒▓███▄░ ▒███  ▒ ▓██░ ▒░
+  ░██▄▄▄▄██ ▓██▒  ▐▌██▒░██░▓██ █▄ ▒▓█  ▄░ ▓██▓ ░ 
+   ▓█   ▓██▒▒██░   ▓██░░██░▒██▒ █▄░▒████▒ ▒██▒ ░ 
+   ▒▒   ▓▒█░░ ▒░   ▒ ▒ ░▓  ▒ ▒▒ ▓▒░░ ▒░ ░ ▒ ░░   
+    ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░░ ░▒ ▒░ ░ ░  ░   ░    
+```
 
-📍 Lucknow, India · 💼 [LinkedIn](https://www.linkedin.com/in/aniket-verma-2034a3294/) · 🌐 [Portfolio](https://vermaaniket.vercel.app)
+**building things that think — one agent at a time**
 
----
+</div>
 
-## 🚀 Currently Building
+<br>
 
-- **[INGOT.ai](https://github.com/masterharry9889)** — a multi-agent AI workspace: nine specialized agents coordinated by an Orchestrator, built on FastAPI, Postgres + pgvector, Redis, Next.js, and react-force-graph.
-- **[Variti.ai](https://github.com/masterharry9889)** — a live ETL and data processing pipeline tool, solo-built and shipped on Vercel.
-- **transformer-lib** — a PyTorch library implementing 8 attention mechanisms as standalone `nn.Module` classes, published on PyPI.
+## `whoami`
 
----
+```bash
+$ cat aniket.json
+{
+  "role": "final-year B.Tech CS (AI & ML) student",
+  "based_in": "Lucknow, India",
+  "specialty": ["multi-agent architectures", "NLP/ML pipelines", "full-stack AI"],
+  "stack": ["FastAPI", "Next.js", "PostgreSQL + pgvector", "Redis"],
+  "currently": "teaching nine agents to agree with each other",
+  "status": "shipping, mostly at 2am"
+}
+```
 
-## 🧠 What I Work On
+<br>
 
-- **Multi-Agent Systems** — orchestrated agent pipelines, tool-calling architectures, vector search with pgvector
-- **Generative AI** — built a 2.3B-parameter GPT-style transformer from scratch; decoder-only Mixture-of-Experts model
-- **NLP** — emotion detection, fake news classification, BERT & LSTM models
-- **Computer Vision** — hand tracking, face recognition, gesture-based controls
-- **Applied ML** — AgriPredict, an agricultural prediction platform (Flask-based)
+## 🕸️ what's on the workbench
 
----
+I like architectures where more than one brain has to talk to each other and actually be useful. Right now that means:
 
-## 🛠️ Tech Stack
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Languages & ML**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+### 🧩 INGOT.ai
+A multi-agent AI workspace — nine specialized agents reporting to a single orchestrator, coordinating over a shared context instead of stepping on each other. Currently getting a full dark/black + single-accent redesign, and being wrapped as a thin-client Electron desktop app talking to a FastAPI/Postgres/Redis backend in the cloud.
 
-**Backend & Infra**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+`FastAPI` `pgvector` `Redis` `Next.js` `Electron`
 
-**Frontend**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+</td>
+<td width="50%" valign="top">
 
----
+### 🌊 Variti.ai
+A live ETL / data-processing pipeline, solo-built end to end and deployed on Vercel. Currently stress-testing it against synthetic data at volumes big enough to make Vercel's serverless limits interesting.
 
-## 📌 Featured Projects
+`Next.js` `ETL` `Vercel`
 
-| Project | Description | Stack |
-|---|---|---|
-| [INGOT.ai](https://github.com/masterharry9889) | Multi-agent AI workspace with 9 specialized agents + Orchestrator | FastAPI, Postgres/pgvector, Redis, Next.js |
-| [Variti.ai](https://github.com/masterharry9889) | Live ETL & data processing pipeline, solo-built and deployed | Next.js, Vercel |
-| transformer-lib | 8 attention mechanisms implemented as standalone PyTorch `nn.Module`s | PyTorch (PyPI) |
-| [Personal GPT](https://github.com/masterharry9889/Personal_._GPT) | 2.3B-parameter GPT-style transformer built from scratch | Python |
-| [Decoder-only MoE](https://github.com/masterharry9889/Decoder_only_moe) | Decoder-only Mixture-of-Experts language model | Python |
-| [NLP Portfolio](https://github.com/masterharry9889/Natural_Language_Processing) | Emotion detection, fake news classification, BERT + LSTM | Python, HuggingFace |
-| [Computer Vision](https://github.com/masterharry9889/Computer_Vision) | Hand tracking & face recognition systems | Python, OpenCV |
-| [Agri Models](https://github.com/masterharry9889/Agri_models) | AgriPredict — agricultural ML prediction platform | Python, Flask |
+</td>
+</tr>
+</table>
 
----
+<br>
 
-## 📊 GitHub Stats
+## 📦 things i've open-sourced
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=masterharry9889&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=masterharry9889&hide_border=true" alt="GitHub streak" height="165"/>
+**`transformer-lib`** — eight attention mechanisms, each implemented as a clean, standalone PyTorch `nn.Module`, published on PyPI. Built for people who want to swap attention variants in and out without reading a research paper first.
+
+<br>
+
+## 🗺️ the build log
+
+```
+2024        AgriPredict — Flask app predicting crop outcomes from ag data
+            └─ speaker recognition, n-grams & BoW text feature extraction
+
+2025        NLP portfolio — emotion detection, fake news classification
+            └─ BERT & LSTM, seaborn visualizations on global food-price data
+            └─ Computer Vision — hand tracking, face recognition
+
+2025–26     Personal GPT — a 2.3B-parameter GPT built from scratch
+            └─ Decoder-only Mixture-of-Experts language model
+            └─ transformer-lib published to PyPI
+
+Now         INGOT.ai — nine agents, one orchestrator
+            Variti.ai — ETL pipeline, live in production
+```
+
+<br>
+
+## 🛠️ toolbox
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" />
+<br>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
+<br>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=masterharry9889&layout=compact&hide_border=true" alt="Top languages" height="165"/>
-</p>
+<br>
 
----
+## 📚 project index
 
-## 📫 Connect
+| repo | what it does |
+|---|---|
+| [INGOT.ai](https://github.com/masterharry9889) | multi-agent AI workspace, 9 agents + orchestrator |
+| [Variti.ai](https://github.com/masterharry9889) | live ETL / data pipeline, deployed on Vercel |
+| `transformer-lib` | 8 attention mechanisms as standalone PyTorch modules *(PyPI)* |
+| [Personal GPT](https://github.com/masterharry9889/Personal_._GPT) | 2.3B-parameter GPT-style transformer, built from scratch |
+| [Decoder-only MoE](https://github.com/masterharry9889/Decoder_only_moe) | decoder-only Mixture-of-Experts language model |
+| [NLP Portfolio](https://github.com/masterharry9889/Natural_Language_Processing) | emotion detection, fake news classification, BERT + LSTM |
+| [Computer Vision](https://github.com/masterharry9889/Computer_Vision) | hand tracking & face recognition |
+| [Agri Models](https://github.com/masterharry9889/Agri_models) | AgriPredict — agricultural ML on Flask |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket-verma-2034a3294/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://vermaaniket.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/masterharry9889)
+<br>
 
-> *Building things that think.*
+<div align="center">
+
+### 📫 reach me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket-verma-2034a3294/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vermaaniket.vercel.app)
+
+*if the agents ever start agreeing with me unprompted, you'll be the first to know*
+
+</div>
