@@ -40,7 +40,7 @@ I like architectures where more than one brain has to talk to each other and act
 <tr>
 <td width="50%" valign="top">
 
-### 🧩 INGOT.ai
+### 🧩 BrainWeb.ai
 A multi-agent AI workspace — nine specialized agents reporting to a single orchestrator, coordinating over a shared context instead of stepping on each other. Currently getting a full dark/black + single-accent redesign, and being wrapped as a thin-client Electron desktop app talking to a FastAPI/Postgres/Redis backend in the cloud.
 
 `FastAPI` `pgvector` `Redis` `Next.js` `Electron`
@@ -111,8 +111,8 @@ Now         INGOT.ai — nine agents, one orchestrator
 
 | repo | what it does |
 |---|---|
-| [INGOT.ai](https://github.com/masterharry9889) | multi-agent AI workspace, 9 agents + orchestrator |
-| [Variti.ai](https://github.com/masterharry9889) | live ETL / data pipeline, deployed on Vercel |
+| [BrainWeb.ai](https://github.com/masterharry9889/BrainWeb.ai) | multi-agent AI workspace, 9 agents + orchestrator |
+| [Variti.ai](https://github.com/masterharry9889/Variti.ai) | live ETL / data pipeline, deployed on Vercel |
 | `transformer-lib` | 8 attention mechanisms as standalone PyTorch modules *(PyPI)* |
 | [Personal GPT](https://github.com/masterharry9889/Personal_._GPT) | 2.3B-parameter GPT-style transformer, built from scratch |
 | [Decoder-only MoE](https://github.com/masterharry9889/Decoder_only_moe) | decoder-only Mixture-of-Experts language model |
