@@ -79,7 +79,7 @@ A live ETL / data-processing pipeline, solo-built end to end and deployed on Ver
             └─ Decoder-only Mixture-of-Experts language model
             └─ transformer-lib published to PyPI
 
-Now         INGOT.ai — nine agents, one orchestrator
+Now         BrainWeb.ai — multiple agents, one orchestrator
             Variti.ai — ETL pipeline, live in production
 ```
 
